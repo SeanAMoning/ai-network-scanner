@@ -1,115 +1,121 @@
-# 🚀 Agentic Network Analysis Tool (AI Network Scanner)
+# Agentic Network Analysis Tool (AI Network Scanner)
 
-An AI-driven autonomous cybersecurity agent designed to explore, analyze, and visualize enterprise-like networks. 
-This project simulates the decision-making of a real cybersecurity analyst using AI, machine learning, and automated scanning workflows.
+This project is an AI-driven autonomous cybersecurity agent designed to explore, analyze, and visualize enterprise-like networks. It simulates the decision-making process of a real cybersecurity analyst using AI, machine learning, and automated scanning workflows.
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 The Agentic Network Analysis Tool uses an AI agent to autonomously perform reconnaissance, vulnerability scanning, classification, and risk visualization.  
-It integrates MITRE ATT&CK–aligned workflows with machine-learning-powered prioritization and a Next.js dashboard for real-time insights.
+It uses MITRE ATT&CK–aligned workflows, machine-learning-based vulnerability prioritization, and a modern dashboard for real-time visibility.
 
-This tool reduces the manual workload of cybersecurity teams by:
-- Automating scanning tasks  
+The system is designed to reduce manual workload by:
+- Automating host and service scanning  
 - Identifying high-risk vulnerabilities  
 - Mapping network topology  
-- Prioritizing risk using ML and GNN models  
-- Displaying findings in a real-time interactive dashboard  
+- Prioritizing risk using machine learning and GNN models  
+- Presenting results in a real-time, interactive dashboard  
 
 ---
 
-## 🧩 Features
+## Features
 
-### 🔍 Autonomous Network Scanning
+### Autonomous Network Scanning
 - Host discovery  
 - OS fingerprinting  
 - Service enumeration  
 - Integrations: Nmap, OpenVAS, Nikto, Metasploit  
 
-### 🤖 AI/ML Classification
+### AI and Machine Learning Classification
 - PyTorch-based supervised vulnerability classifier  
-- CVSS + EPSS–enhanced scoring  
-- Adaptive risk prioritization  
+- Enhanced scoring using CVSS + EPSS  
+- Adaptive contextual risk prioritization  
 
-### 🌐 Network Topology Modeling
-- Graph Neural Network (GNN) maps node relationships  
-- Risk propagation detection  
+### Network Topology Modeling
+- Graph Neural Network (GNN) for mapping node relationships  
+- Risk propagation modeling  
 - Dynamic risk overlays  
 
-### 📊 Real-Time Dashboard
-- Built with Next.js + D3.js/Cytoscape.js  
-- Live topology mapping  
-- Vulnerability ranking interface  
-- AI agent activity logs  
+### Real-Time Dashboard
+- Built with Next.js and D3.js/Cytoscape.js  
+- Live network topology visualization  
+- Vulnerability ranking lists  
+- AI agent activity and decision logging  
 
 ---
 
-## 🔧 Technology Stack
+## Technology Stack
 
-**AI Agent:** GPT-OSS-120B (locally hosted)  
-**Orchestration:** LangChain / LangGraph  
-**Scanning Tools:** Nmap, OpenVAS, Nikto, Metasploit  
-**Machine Learning:** PyTorch (Classifier + GNN)  
-**Backend:** Python microservices + PostgreSQL  
-**Frontend:** Next.js + D3.js/Cytoscape.js  
-**Infrastructure:** HCU-hosted server testbed (containerized)
-
----
-
-## 🏗️ System Architecture  
-*(Diagram coming soon)*  
-`/docs/architecture.png`
+- AI Agent: GPT-OSS-120B (locally hosted)  
+- Agent Framework: LangChain / LangGraph  
+- Scanning Tools: Nmap, OpenVAS, Nikto, Metasploit  
+- Machine Learning: PyTorch (Classifier + GNN)  
+- Backend: Python microservices, PostgreSQL  
+- Frontend: Next.js with D3.js or Cytoscape.js  
+- Infrastructure: Containerized testbed on HCU servers  
 
 ---
 
-## 🧠 How It Works (Workflow)
+## System Architecture
 
-**Inputs:**  
+A detailed architecture diagram will be added soon.  
+(Place in `/docs/architecture.png` once ready.)
+
+---
+
+## How The System Works
+
+### Inputs
 - Network scan results  
-- CVE/NVD + EPSS threat feeds  
-- IDS/IPS log activity  
-- Topology updates  
+- CVE/NVD and EPSS threat intelligence  
+- IDS/IPS logs  
+- Network topology updates  
 
-**Process:**  
-1. AI agent selects ATT&CK-aligned actions  
-2. Scans hosts and services  
-3. Classifier evaluates vulnerabilities  
-4. GNN models the full network graph  
-5. Dashboard displays real-time results  
+### Process
+1. AI agent selects actions based on MITRE ATT&CK workflows  
+2. Performs scans and collects network data  
+3. Machine-learning model classifies vulnerabilities  
+4. GNN analyzes network structure and risk flow  
+5. Dashboard displays real-time insights  
 
-**Outputs:**  
+### Outputs
 - Ranked vulnerability list  
-- Topology + risk overlay  
-- Agent decision log  
+- Topology map with risk overlays  
+- Agent action and decision log  
 - Mitigation recommendations  
 
 ---
 
-## 📈 Project Status  
-**IN PROGRESS**
+## Project Status
+
+Current status: **In Progress**
 
 Planned milestones:
-- [ ] Build baseline network scanner  
+- [ ] Implement baseline scanner  
 - [ ] Develop agent workflows  
 - [ ] Train ML classifier  
 - [ ] Implement GNN topology model  
-- [ ] Dashboard development  
-- [ ] Live testbed demo  
+- [ ] Build dashboard interface  
+- [ ] Conduct live testbed demonstration  
 
 ---
 
-## 👥 Team Roles
+## Team Roles
 
-### **Sean Moning — Network Analyst / Engineer**
-- Vulnerable configuration setup  
-- MITRE ATT&CK technique mapping  
-- IDS/IPS validation  
-- Sandbox network creation and maintenance  
+### Sean Moning — Network Analyst / Engineer
+- Creates vulnerable configurations and test environments  
+- Maps vulnerabilities to MITRE ATT&CK  
+- Validates IDS/IPS alerts  
+- Helps build and maintain sandbox network infrastructure  
 
-Other team responsibilities include ML engineering, full-stack dashboard development, and infrastructure setup.
+Other team contributions include AI/ML development, dashboard engineering, and server infrastructure setup.
 
 ---
+
+## License
+
+To be added.
+
 
 ## 📄 License  
 To be added.
