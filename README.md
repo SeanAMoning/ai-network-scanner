@@ -117,5 +117,3 @@ Other team contributions include AI/ML development, dashboard engineering, and s
 To be added.
 
 
-## 📄 License  
-To be added.
